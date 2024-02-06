@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.advent-font {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-shadow-xs {
+    text-shadow: 3px 4px 4px rgba(255, 255, 255, 0.25);
+}

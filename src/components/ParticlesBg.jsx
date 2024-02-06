@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-// import { loadAll } from "@/tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
-// import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
-// import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
+// import { loadAll } from "@/tsparticles/all"; // if you are going to use loadAll, install the "@tsparticles/all" package too.
+// import { loadFull } from "tsparticles"; // if you are going to use loadFull, install the "tsparticles" package too.
+import { loadSlim } from "@tsparticles/slim"; // if you are going to use loadSlim, install the "@tsparticles/slim" package too.
+// import { loadBasic } from "@tsparticles/basic"; // if you are going to use loadBasic, install the "@tsparticles/basic" package too.
 
 const App = () => {
   const [init, setInit] = useState(false);
@@ -31,9 +31,9 @@ const App = () => {
     () => ({
       "autoPlay": true,
       "background": {
-        "color": {
-          "value": "#000000"
-        },
+        // "color": {
+        //   "value": "#000000"
+        // },
         "image": "",
         "position": "",
         "repeat": "",
@@ -64,7 +64,7 @@ const App = () => {
         "detectsOn": "window",
         "events": {
           "onClick": {
-            "enable": false,
+            "enable": true,
             "mode": []
           },
           "onDiv": {
@@ -74,7 +74,7 @@ const App = () => {
             "type": "circle"
           },
           "onHover": {
-            "enable": false,
+            "enable": true,
             "mode": [],
             "parallax": {
               "enable": false,
@@ -388,7 +388,7 @@ const App = () => {
           "type": "circle"
         },
         "size": {
-          "value": 3,
+          "value": 1,
           "animation": {
             "count": 0,
             "enable": false,
