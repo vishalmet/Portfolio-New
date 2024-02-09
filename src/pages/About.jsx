@@ -25,33 +25,11 @@ const textBG = {
   
 const About = () => {
   return (
-    <div className=" bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" > 
+    <div id='about-section' className=" bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" > 
         <ParticlesBg/>
-        {/* <div className=" flex justify-center pt-2 ">
-                <div className=' flex  items-center flex-shrink-0 poppins-font  text-xl 'style={{blueColor}} >
-                    <ul className='hidden text-white md:flex flex-wrap items-center space-x-2  md:space-x-4 font-medium'>
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap underline hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
-                        <a href="/">Home</a>
-                        </li>
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap  hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
-                        <a href="/about">About Me</a>
-                        </li>
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
-                            <a href="/experience">Experience</a>
-                        </li>
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
-                            <a href="/works">My Works</a>
-                        </li>
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>Contact</li>
-                    </ul>
-                    <a href="https://drive.google.com/file/d/1SXoG2med5vyVV4orem7vDVyDefa5qItY/view?usp=drive_link" target='_blank' className=' py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-md cursor-pointer font-semibold text-black hover:from-sky-400 hover:to-sky-200 hover:text-black poppins-font'>Resume</a>
 
-                </div>
-        </div> */}
-
-
-        <div className=" pt-12 pb-12">
-          <p className=' flex justify-center  pt-6 font-semibold poppins-font text-white text-2xl  md:text-4xl '>About</p>
+        <div className=" pt-12 pb-12 flex-shrink-0" >
+          <p className=' flex justify-center  pt-6 font-semibold poppins-font text-white text-2xl  md:text-4xl '>ABOUT</p>
           <div className=" md:flex justify-center items-center p-3 md:p-16 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 " style={textBG}>
             <p className=' md:text-2xl text-white poppins-font'> As a dynamic Frontend Web Developer and aspiring UI/UX Designer, I am fervently dedicated to continuous learning and embracing emerging technologies.
                 My passion extends to exploring the intricate world of blockchain technology, further enriching my skill set.
@@ -61,7 +39,7 @@ const About = () => {
           </div>
         </div>
         <div className=" pt-12 pb-12">  
-          <div className=" md:flex justify-center items-center p-3  mx-6 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 " style={textBG}>
+          <div className=" lg:flex justify-center items-center p-3  mx-6 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 " style={textBG}>
             <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-96' src={Tools} alt="Tools" />
             <p className=' md:text-2xl text-white poppins-font'> 
             I possess extensive proficiency in utilizing Tailwind CSS, JavaScript, and prominent frameworks such as React.js and Django, alongside application frameworks like React Native. Furthermore, I am adept in programming languages including Python, C, C++, and Java. My comfort extends to leveraging design tools like Figma, Canvas, Miro, and Mural to craft intuitive user interfaces and facilitate seamless ideation processes.           

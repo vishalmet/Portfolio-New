@@ -10,9 +10,12 @@ const blueColor = {
 color: '#46CFE5'
 }
 
-// const textShadowStyle = {
-//   textShadow: '3px 4px 4px rgba(255, 255, 255, 0.25)',
-// };
+const scrollToSection = (sectionId) => {
+  const sectionElement = document.getElementById(sectionId);
+  if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
 const Home = () => {
   return (
@@ -27,7 +30,7 @@ const Home = () => {
                         <a href="/">Home</a>
                         </li>
                         <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap  hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
-                        <a href="/about">About Me</a>
+                        <a href="#about-section">About Me</a>
                         </li>
                         <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
                             <a href="/experience">Experience</a>
@@ -43,9 +46,9 @@ const Home = () => {
         </div>
 
 
-          <div className=" items-center m-2 mt-32 mb-40 md:ml-48 md:flex md:mx-32 md:mt-44 md:mb-52 md:space-x-6">
+          <div className=" items-center m-2 mt-32 mb-40 flex-shrink-0 md:ml-48 md:flex md:mx-32 md:mt-44 md:mb-52 md:space-x-6">
               <img className=' ml-12 md:ml-40 flex justify-center h-44  md:h-64' src={HomePic} alt="" />
-            <div className=" mx-6 flex justify-center flex-col pt-6 md:pt-0 md:mx-0 poppins-font text-3xl md:text-5xl font-semibold">
+            <div className=" mx-6 flex justify-center flex-col pt-6 md:pt-0 md:mx-0 poppins-font text-3xl md:text-4xl font-semibold">
               <p >Hey Folks🚀</p>
               <p className=' pb-4 '>I am <span style={blueColor}>Vishal Aakash</span></p>
               <TypeWriting/>
