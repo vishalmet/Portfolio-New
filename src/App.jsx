@@ -6,7 +6,7 @@ import About from '../src/pages/About';
 import Experience from './pages/Experience';
 import SecureDApp from './components/SecureDApp';
 import YugaasTech from './components/YugaasTech';
-import Gryffindors from './components/Gryffindors';
+import Works from './pages/Works';
 
 
 function App (){
@@ -17,11 +17,10 @@ function App (){
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/about" Component={About}/>
-        {/* <Route path="/works" Component={Works}/> */}
         <Route path="/experience" Component={Experience}/>
         <Route path="/securedapp" Component={SecureDApp}/>
         <Route path="/yugaastech" Component={YugaasTech}/>
-        <Route path="/gryffindors" Component={Gryffindors}/>
+        <Route path="/works" Component={Works}/>
 
       </Routes>
     </Router>

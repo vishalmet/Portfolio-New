@@ -6,18 +6,15 @@ import About from './About';
 
 
 
+
 const blueColor = {
 color: '#46CFE5'
 }
 
-const scrollToSection = (sectionId) => {
-  const sectionElement = document.getElementById(sectionId);
-  if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
-  }
-};
 
 const Home = () => {
+
+
   return (
     
     <div className=" h-screen bg-gradient-to-b from-cyan-300 via-slate-500 to-cyan-300 bg-cover bg-center" >

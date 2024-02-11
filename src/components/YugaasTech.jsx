@@ -33,23 +33,25 @@ const YugaasTech = () => {
                     <div className="pl-1 pt-10 space-y-1 md:pl-6 lg:pl-10">
                         <p className='text-xl underline pr-3 pb-3 poppins-font font-bold tracking-wide md:text-3xl' style={blueColor}>Key Achievements and Responsibilities</p>
                         <p className=' text-xl poppins-font tracking-wide text-white md:text-2xl'>
-                            <h1><span className='text-red-400'>-</span> Collaborated with the development team to create responsive and user-friendly web applications.</h1>
-                            <h1><span className='text-red-400'>-</span>Participated in brainstorming sessions with the development team and to devise growth hacking strategies for user acquisition and retention.</h1>
-                            <h1><span className='text-red-400'>-</span>Contributed to content marketing efforts, including blog posts in various social media like Discord, Twitter to increase brand awareness.</h1>
+                            <h1><span className='text-red-400'>-</span>Collaborated closely with the development team to conceptualize and implement responsive and intuitive web applications.</h1>
+                            <h1><span className='text-red-400'>-</span>Played a key role in brainstorming sessions to ideate and execute UI/UX designs aligned with project requirements and user preferences.</h1>
+                            <h1><span className='text-red-400'>-</span>Contributed to content creation efforts, including designing engaging visuals and graphics for social media platforms to bolster brand visibility and engagement.</h1>
                         </p>
                     </div>
                     <div className="pl-1 pt-10 space-y-1 md:pl-6 lg:pl-10">
                         <p className='text-xl underline pr-3 pb-3 poppins-font font-bold tracking-wide md:text-3xl' style={blueColor}>Technologies and Tools Used</p>
                         <p className=' text-xl poppins-font tracking-wide text-white md:text-2xl'>
                             <h1><span className='text-red-400'>-</span>HTML, CSS, JavaScript</h1>
-                            <h1><span className='text-red-400'>-</span>ReactJs & TailwindCSS</h1>
-                            <h1><span className='text-red-400'>-</span>UI/UX Design</h1>
-                            <h1><span className='text-red-400'>-</span>Discord & Telegram</h1>
+                            <h1><span className='text-red-400'>-</span>Django & TailwindCSS</h1>
+                            <h1><span className='text-red-400'>-</span>Figma</h1>
+                            <h1><span className='text-red-400'>-</span>Other relevant design and prototyping tools</h1>
                         </p>
                     </div>
                     <div className="pl-1 pt-10 space-y-1 md:pl-6 lg:pl-10">
                         <p className='text-xl underline pr-3 pb-3 poppins-font font-bold tracking-wide md:text-3xl' style={blueColor}>Lessons Learned</p>
-                        <p className=' text-xl text-white poppins-font tracking-wide md:text-2xl'>My internship at SecureDApp allowed me to develop both technical and soft skills. I enhanced my proficiency in frontend development, gained experience in growth hacking, and improved my ability to collaborate in a dynamic team environment. I also learned the importance of data-driven decision-making and the value of user-centric design.</p>
+                        <p className=' text-xl text-white poppins-font tracking-wide md:text-2xl'>
+                            My tenure at Yugaastech was a valuable learning experience that allowed me to refine my technical skills in frontend development and deepen my understanding of UI/UX design principles. I gained insights into the collaborative nature of project development and honed my ability to translate client requirements into visually stunning and user-centric design solutions. Additionally, I developed a keen appreciation for the iterative nature of design and the importance of continuous improvement in delivering exceptional user experiences.                        
+                        </p>
                     </div>
             </div>
         </div>  
