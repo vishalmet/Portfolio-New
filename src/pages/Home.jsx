@@ -3,6 +3,7 @@ import ParticlesBg from '../components/ParticlesBg';
 import TypeWriting from '../components/TypeWriting';
 import HomePic from '../assets/home.png'
 import About from './About';
+import Logo from '../assets/VAlogo.png'
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
         <ParticlesBg/>
         {/* Navbar */}
         <div className=" bg-cyan-300 pb-3 flex justify-center pt-2 " >
+          <a className=' hover:cursor-pointer' href="/"><img className=' h-16 absolute left-0' src={Logo} alt="Logo" /></a>
                 <div className=' flex  items-center flex-shrink-0 poppins-font  text-xl 'style={{blueColor}} >
                     <ul className='hidden text-black md:flex flex-wrap items-center space-x-2  md:space-x-4 font-medium'>
                         <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap underline hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
