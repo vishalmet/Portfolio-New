@@ -27,7 +27,7 @@ const Works = () => {
   return (
     <div className="  bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" > 
         <ParticlesBg/>
-        <div className=" flex justify-center pt-2 ">
+        <div className=" bg-slate-700 pb-3 flex justify-center pt-2 ">
                 <div className=' flex  items-center flex-shrink-0 poppins-font  text-xl ' >
                     <ul className='hidden text-white md:flex flex-wrap items-center space-x-2  md:space-x-4 font-medium'>
                         <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
