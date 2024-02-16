@@ -8,6 +8,7 @@ import LinkedIn from '../assets/linkedin.png';
 import Yt from '../assets/yt.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Skills from '../components/Skills';
 
 
 const blueColor = {
@@ -48,13 +49,16 @@ const About = () => {
             <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-52' data-aos = "fade-up" src={Me} alt="Vishal" />
           </div>
         </div>
-        <div className=" pt-12 pb-12">  
+        {/* <div className=" pt-12 pb-12">  
           <div className=" lg:flex justify-center items-center p-3  mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300" data-aos = "flip-right" style={textBG}>
             <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-96' data-aos = "fade-up" src={Tools} alt="Tools" />
             <p className=' md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
             I possess extensive proficiency in utilizing Tailwind CSS, JavaScript, and prominent frameworks such as React.js and Django, alongside application frameworks like React Native. Furthermore, I am adept in programming languages including Python, C, C++, and Java. My comfort extends to leveraging design tools like Figma, Canvas, Miro, and Mural to craft intuitive user interfaces and facilitate seamless ideation processes.           
             </p>
           </div>
+        </div> */}
+        <div className="">
+          <Skills />
         </div>
         <div className=" mr-4 flex-row justify-center mt-32 ">
             <p className=' text-xl flex justify-center poppins-font md:text-3xl text-white font-medium'>Connect with me on:</p>
