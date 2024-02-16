@@ -57,7 +57,8 @@ const About = () => {
             </p>
           </div>
         </div> */}
-        <div className="">
+        <div className="" data-aos = " fade-up">
+          <p className=' flex justify-center poppins-font text-2xl md:text-4xl font-semibold text-white p-10' >Skills & Stacks I use</p>
           <Skills />
         </div>
         <div className=" mr-4 flex-row justify-center mt-32 ">

@@ -14,18 +14,26 @@
     text-shadow: 3px 4px 4px rgba(255, 255, 255, 0.25);
 }
 
-/* styles.css */
-.image {
-    height: 42px; /* Adjust the height as needed */
-    width: 42px; /* Adjust the width as needed */
-    margin-right: 10px; /* Add some margin between images */
-    flex-shrink: 0; /* Prevent images from shrinking */
+
+/* .scroll-content {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+ */
+
+ .scroll-container {
+    overflow-x: hidden; /* Hide overflow */
+    position: relative; /* Position relative for absolute positioning */
 }
 
 .scroll-content {
     display: flex;
-    overflow-x: scroll;
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* Make the container a flex container */
+    animation: scrollAnimation 20s linear infinite; /* Adjust animation duration and timing function as needed */
 }
 
+@keyframes scrollAnimation {
+    0% { transform: translateX(0); } /* Start position */
+    100% { transform: translateX(-100%); } /* End position */
+}
