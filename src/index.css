@@ -37,3 +37,7 @@
     0% { transform: translateX(0); } /* Start position */
     100% { transform: translateX(-100%); } /* End position */
 }
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
