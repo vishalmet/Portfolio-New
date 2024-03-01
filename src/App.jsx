@@ -7,6 +7,7 @@ import Experience from './pages/Experience';
 import SecureDApp from './components/SecureDApp';
 import YugaasTech from './components/YugaasTech';
 import Works from './pages/Works';
+import Contact from './pages/Contact';
 
 
 function App (){
@@ -21,6 +22,7 @@ function App (){
         <Route path="/securedapp" Component={SecureDApp}/>
         <Route path="/yugaastech" Component={YugaasTech}/>
         <Route path="/works" Component={Works}/>
+        <Route path="/contact" Component={Contact}/>
 
       </Routes>
     </Router>
