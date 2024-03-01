@@ -16,11 +16,6 @@ const Navbar = () => {
         setIsOpen(false);
     };
 
-    const handleMenuClick = () => {
-        setIsOpen(false); // Close the sidebar when any menu item is clicked
-    };
-
-
     const handleCloseClick = () => {
         setIsOpen(false); // Close the sidebar when the close button is clicked
     };
@@ -30,12 +25,12 @@ const Navbar = () => {
         <div className="">
             <ParticlesBg/>
         
-        <div className="bg-cyan-300 pb-3 pt-2 flex justify-between items-center ">
+        <div className="bg-cyan-300 pb-3 pt-2 flex justify-between items-center " style={{ boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.1)' }}>
             <a href="/" className="hover:cursor-pointer">
                 <img className="h-12" src={Logo} alt="Logo" />
             </a>
             <div className="md:hidden">
-                <button onClick={toggleMenu} className="block text-xl focus:outline-none">
+                <button onClick={toggleMenu} className="block text-xl font-semibold focus:outline-none mr-4">
                     ☰ 
                 </button>
             </div>
@@ -47,17 +42,19 @@ const Navbar = () => {
                     <li><Link to="#about-section" className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>About Me</Link></li>
                     <li><Link to="/experience" className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>Experience</Link></li>
                     <li><Link to="/works" className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>My Works</Link></li>
-                    <li><Link to="/contact" className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>Contact</Link></li>
+                    <li><Link to="/contact" className='py-1 px-1 mx-1 pt-2 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>Contact</Link></li>
+                    <a href="https://drive.google.com/file/d/1SXoG2med5vyVV4orem7vDVyDefa5qItY/view?usp=drive_link" target='_blank' className=' py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-md cursor-pointer font-semibold hover:from-sky-400 hover:to-sky-200 hover:text-black poppins-font'>Resume</a>
                 </ul>
             </div>
             {/* Desktop Navbar */}
-            <div className="hidden md:flex md:items-center md:space-x-4 space-x-2 poppins-font font-medium mr-4">
-                <Link to="/" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">Home</Link>
-                <Link to="#about-section" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">About Me</Link>
-                <Link to="/experience" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">Experience</Link>
-                <Link to="/works" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">My Works</Link>
-                <Link to="/contact" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">Contact</Link>
-                <a href="https://drive.google.com/file/d/1SXoG2med5vyVV4orem7vDVyDefa5qItY/view?usp=drive_link" target='_blank' className=' py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-md cursor-pointer font-semibold hover:from-sky-400 hover:to-sky-200 hover:text-black poppins-font'>Resume</a>
+            <div className="hidden md:flex md:items-center md:space-x-4 space-x-2 poppins-font font-medium mr-4 text-lg">
+                <Link to="/" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">🏠 Home </Link>
+                <Link to="#about-section" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">🙋‍♂️ About Me </Link>
+                <Link to="/experience" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">💡 Experience </Link>
+                <Link to="/works" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black">🗂️ My Works </Link>
+                <Link to="/contact" className="py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black"> 🤝Contact </Link>
+                <a href="https://drive.google.com/file/d/1SXoG2med5vyVV4orem7vDVyDefa5qItY/view?usp=drive_link" target='_blank' className=' py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 bg-gradient-to-t from-sky-400 via-sky-300 to-sky-200 rounded-md cursor-pointer font-semibold hover:from-pink-500 hover:via-red-500 hover:to-yellow-500'>Resume/CV 📃</a>
+                <a href="https://drive.google.com/drive/folders/1gSkpVjMNAO3Yw4Odht6OZyKvrOAXJPDe?usp=sharing" target='_blank' className=' py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-md cursor-pointer font-semibold hover:from-sky-400 hover:to-sky-200'>Certificates 👨🏻‍💻</a>
             </div>
         </div>
         </div>

@@ -9,6 +9,7 @@ import FundRaiz from '../assets/FundRaiz.jpeg';
 import Tesla from '../assets/tesla.png';
 import IG from '../assets/IG.png';
 import Logo from '../assets/VAlogo.png'
+import Navbar from '../components/Navbar';
 
 
 
@@ -29,27 +30,8 @@ const Works = () => {
   return (
     <div className="  bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" > 
         <ParticlesBg/>
-        <div className=" bg-slate-700 pb-3 flex justify-center pt-2 ">
-          <a className=' hover:cursor-pointer' href="/"><img className=' h-16 absolute left-0' src={Logo} alt="Logo" /></a>
-                <div className=' flex  items-center flex-shrink-0 poppins-font  text-xl ' >
-                    <ul className='hidden text-white md:flex flex-wrap items-center space-x-2  md:space-x-4 font-medium'>
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
-                        <a href="/">Home</a>
-                        </li>
-                        {/* <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap  hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black' >
-                        <a href="/about">About Me</a>
-                        </li> */}
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3  flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
-                            <a href="/experience">Experience</a>
-                        </li>
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 underline flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>
-                            <a href="/works">My Works</a>
-                        </li>
-                        <li className='py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 flex-wrap hover:bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 hover:rounded-md cursor-pointer hover:text-black'>Contact</li>
-                    </ul>
-                    <a href="https://drive.google.com/file/d/1SXoG2med5vyVV4orem7vDVyDefa5qItY/view?usp=drive_link" target='_blank' className=' py-1 px-1 mx-1 md:py-3 md:px-3 md:mx-3 bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-md cursor-pointer font-semibold text-white hover:from-sky-400 hover:to-sky-200 hover:text-black poppins-font'>Resume</a>
-                </div>
-        </div>
+        <Navbar/>
+        <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-white mt-4 md:mt-10 poppins-font'>My Works</p>
         {/* 1 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
           <div className=" md:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
