@@ -24,8 +24,8 @@ const Home = () => {
         <Navbar/>
 
           <div className=" items-center m-2 mt-32 mb-40 flex-shrink-0 md:ml-48 md:flex md:mx-32 md:mt-44 md:mb-52 md:space-x-16">
-              <img className=' ml-12 md:ml-40 flex justify-center h-44  md:h-80' src={HomePic} alt="" />
-            <div className=" mx-6 flex justify-center flex-col pt-6 md:pt-0 md:mx-0 poppins-font text-3xl md:text-4xl font-semibold">
+              <img className=' mx-[25%] md:mx-0 md:ml-40 flex justify-center h-44  md:h-80' src={HomePic} alt="" />
+            <div className=" mx-[15%] flex justify-center flex-col pt-6 md:pt-0 md:mx-0 poppins-font text-3xl md:text-4xl font-semibold">
               <p >Hey Folks🚀</p>
               <p className=' pb-4 '>I am <span style={blueColor}>Vishal Aakash</span></p>
               <TypeWriting/>
