@@ -23,7 +23,6 @@ function App (){
         <Route path="/yugaastech" Component={YugaasTech}/>
         <Route path="/works" Component={Works}/>
         <Route path="/contact" Component={Contact}/>
-
       </Routes>
     </Router>
 

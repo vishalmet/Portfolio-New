@@ -1,6 +1,10 @@
 import { useState } from "react";
 import ParticlesBg from '../components/ParticlesBg';
 import Navbar from '../components/Navbar';
+import X from '../assets/X.png';
+import GitHub from '../assets/github.png';
+import LinkedIn from '../assets/linkedin.png';
+import Yt from '../assets/yt.png';
 
 export default function Fetch() {
   const [name, setName] = useState("");
@@ -115,7 +119,16 @@ export default function Fetch() {
         </div>
         </form>
       </div>
-      <div className=" absolute bottom-0 w-full bg-black flex justify-center">
+      <div className=" mr-4 flex-row justify-center mt-32 ">
+            <p className=' text-xl flex justify-center poppins-font md:text-3xl text-white font-medium'>Connect with me on:</p>
+            <div className=" flex justify-center space-x-6 p-6" >
+              <a className=' hover:scale-105 transition-transform' href="https://github.com/vishalmet" target='_blank'><img className=' h-8 md:h-10' src={GitHub}></img></a>
+              <a className=' hover:scale-105 transition-transform' href="https://www.linkedin.com/in/vishal-aakash/"  target='_blank'><img className=' h-8 md:h-10'  src={LinkedIn}></img></a>
+              <a className=' hover:scale-105 transition-transform' href="https://twitter.com/VishalAakash18" target='_blank'><img className=' h-8 md:h-10' src={X}></img></a>
+              <a className=' hover:scale-105 transition-transform' href="https://youtube.com/@vishalaakash1802" target='_blank'><img className=' h-8 md:h-10' src={Yt}></img></a>
+            </div>
+        </div>
+      <div className=" bottom-0 w-full bg-black flex justify-center">
           <p className=' text-white poppins-font p-3'> Designed & Developed by Vishal Aakash</p>
       </div>
     </div>
