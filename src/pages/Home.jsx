@@ -23,12 +23,18 @@ const Home = () => {
         <ParticlesBg/>
         <Navbar/>
 
-          <div className=" items-center m-2 mt-32 mb-40 flex-shrink-0 md:ml-48 md:flex md:mx-32 md:mt-44 md:mb-52 md:space-x-16">
-              <img className=' mx-[25%] md:mx-0 md:ml-40 flex justify-center h-44  md:h-80' src={HomePic} alt="" />
-            <div className=" mx-[15%] flex justify-center flex-col pt-6 md:pt-0 md:mx-0 poppins-font text-2xl md:text-4xl font-semibold">
-              <p className=' '>Hey Folks🚀</p>
-              <p className=' pb-4 '>I am <span style={blueColor}>Vishal Aakash</span></p>
-              <TypeWriting/>
+          <div className=" items-center m-2 mt-32 mb-40 flex-shrink-0 lg:ml-48 lg:flex lg:mx-32 md:mt-44 md:mb-52 lg:space-x-16">
+              <div className=" flex justify-center">
+                <img className=' md:mx-0 lg:ml-40  h-44  md:h-80' src={HomePic} alt="" />
+              </div>
+            <div className="   flex-col pt-6 lg:pt-0 md:mx-0 poppins-font text-2xl md:text-4xl font-semibold">
+              <p className=' flex justify-center lg:flex-col '>Hey Folks🚀</p>
+              <div className=" flex justify-center lg:flex-col">
+                <p className=' pb-4 '>I am <span style={blueColor}>Vishal Aakash</span></p>
+              </div>
+              <div className="flex justify-center lg:flex-col">
+                <TypeWriting/>
+              </div>
             </div>
           </div>
       <About />
