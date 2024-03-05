@@ -34,9 +34,9 @@ const Works = () => {
         <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-white mt-4 md:mt-10 poppins-font'>My Works</p>
         {/* 1 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" md:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
-            <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-52' data-aos = "fade-up" src={Ticket3} alt="Vishal" />
-            <div className=' pt-2 md:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
+            <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={Ticket3} alt="Vishal" />
+            <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>Ticket3: Crypto tickets, your way!</p> 
                 <p className=' pb-2'>Our goal in developing this product is to address the challenges posed by the black market and ticket scalping, ensuring that venue capacities are respected to prevent overcrowding and potential disturbances.</p> 
                 <div className=" flex justify-center">
@@ -47,9 +47,9 @@ const Works = () => {
         </div>
         {/* 2 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" md:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
-            <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-52' data-aos = "fade-up" src={DeCric} alt="Vishal" />
-            <div className=' pt-2 md:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
+            <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={DeCric} alt="Vishal" />
+            <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>DeCric: A Decentralized fantasy cricket!</p> 
                 <p className=' pb-2'>We developed a decentralized sports prediction app for transparent contest participation and clear winner announcements, overcoming the opacity of centralized platforms.</p> 
                 <div className=" flex justify-center">
@@ -60,9 +60,9 @@ const Works = () => {
         </div>
         {/* 3 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" md:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
-            <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-52' data-aos = "fade-up" src={Grfolio} alt="Vishal" />
-            <div className=' pt-2 md:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
+            <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={Grfolio} alt="Vishal" />
+            <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>Grfolio: It is Devfolio, but Decentralized!</p> 
                 <p className=' pb-2'>Our decentralized product, akin to Devfolio, offers proof of work to hackers. Overcoming the challenge of showing proof of work, our solution empowers users effectively.</p> 
                 <div className=" flex justify-center">
@@ -73,9 +73,9 @@ const Works = () => {
         </div>
         {/* 4 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" md:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
-            <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-52' data-aos = "fade-up" src={FundRaiz} alt="Vishal" />
-            <div className=' pt-2 md:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
+            <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={FundRaiz} alt="Vishal" />
+            <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>FundRaiz: Empower the Crowd, Fund the Future!</p> 
                 <p className=' pb-2'>Empowerment through Decentralized Crowdfunding. Our platform enables users to create or contribute to campaigns, ensuring transparency and maximizing donations for administrators.</p> 
                 <div className=" flex justify-center">
@@ -86,9 +86,9 @@ const Works = () => {
         </div>
         {/* 5 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" md:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
-            <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-52' data-aos = "fade-up" src={Tesla} alt="Vishal" />
-            <div className=' pt-2 md:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
+            <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={Tesla} alt="Vishal" />
+            <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>Tesla UI: A smooth and seemless UI!</p> 
                 <p className=' pb-2'>Created purely out of interest, this Tesla-inspired UI showcases my dedication to learning and building with Tailwind CSS. The seamless design and innovative technology of Tesla continue to inspire us.</p> 
                 <div className=" flex justify-center">
@@ -99,9 +99,9 @@ const Works = () => {
         </div>
         {/* 6 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" md:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 md:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
-            <img className=' h-auto rounded-lg pt-2 md:pt-0 md:h-52' data-aos = "fade-up" src={IG} alt="Vishal" />
-            <div className=' pt-2 md:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
+            <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={IG} alt="Vishal" />
+            <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>Instagram UI: A smooth and seemless UI!</p> 
                 <p className=' pb-2'>Created for learning and inspired by Instagram's seamless UI and innovative tech, this project showcases my interest in Tailwind CSS.</p> 
                 <div className=" flex justify-center">
