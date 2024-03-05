@@ -63,7 +63,7 @@ export default function Fetch() {
   }
 
   return (
-    <div className=" h-screen bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" >
+    <div className=" h-screen  bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" >
       <ParticlesBg/>  
       <Navbar/>
       <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-white mt-4 md:mt-10 poppins-font'>CONTACT ME</p>
@@ -128,7 +128,7 @@ export default function Fetch() {
               <a className=' hover:scale-105 transition-transform' href="https://youtube.com/@vishalaakash1802" target='_blank'><img className=' h-8 md:h-10' src={Yt}></img></a>
             </div>
         </div>
-      <div className=" bottom-0 w-full bg-black flex justify-center">
+      <div className=" absolute bottom-0 w-full bg-black mt-6 flex justify-center">
           <p className=' text-white poppins-font p-3'> Designed & Developed by Vishal Aakash</p>
       </div>
     </div>

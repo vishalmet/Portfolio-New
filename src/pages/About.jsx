@@ -38,7 +38,7 @@ const About = () => {
 
         <div className=" pt-12 pb-12 flex-shrink-0" >
           <p className=' flex justify-center  pt-6 font-semibold poppins-font text-white text-2xl  md:text-4xl ' data-aos = "fade-up">ABOUT</p>
-          <div className=" justify-center items-center p-3 mx-10 md:p-16 lg:mx-20  md:mt-12 rounded-lg flex-shrink-0  hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
+          <div className=" justify-center items-center p-3 mx-6 md:mx-10 md:p-16 lg:mx-20  md:mt-12 rounded-lg flex-shrink-0  hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
             <div className="flex justify-center">
               <img className=' h-auto rounded-lg  pt-2 md:pt-0 lg:h-96' data-aos = "fade-up" src={Me} alt="Vishal" />
             </div>
@@ -62,7 +62,7 @@ const About = () => {
           </div>
         </div> */}
         <div className="" data-aos = " fade-up">
-          <p className=' flex justify-center poppins-font text-2xl md:text-4xl font-semibold text-white p-10' >Skills & Tools I use</p>
+          <p className=' flex justify-center poppins-font text-2xl md:text-4xl font-semibold text-white p-10' >Stacks & Tools I use</p>
           <Skills />
         </div>
         <div className=" mr-4 flex-row justify-center mt-32 ">
