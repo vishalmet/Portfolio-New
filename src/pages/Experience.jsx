@@ -29,8 +29,8 @@ const Experience = () => {
     <ParticlesBg/>
     <Navbar/>
     <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-white mt-4 md:mt-10 poppins-font'>My Experience</p>
-        {/* 1 */}
-        <div className=" pt-10 pb-10 mx-3 md:mx-[22%] flex-shrink-0">
+        {/* 1 */} 
+        <div className=" pt-10 pb-10 mx-3 md:mx-10 lg:mx-[22%] flex-shrink-0">
           <div className=" space-y-6 rounded-lg p-10 poppins-font hover:scale-105 hover:border-2 hover:border-cyan-300" data-aos = "flip-left" style={textBG}>
             <p className=' text-xl underline font-semibold bg-gradient-to-r from-blue-300 via-green-200 to-yellow-300 bg-clip-text text-transparent md:text-3xl'>10th July 2023 - 24 september 2023</p>                  
             <p className=' text-base text-white pb-5 md:text-2xl' >I had the opportunity to intern at <span className=' font-semibold bg-gradient-to-b from-green-900 via-green-300 to-green-500 bg-clip-text text-transparent'>SecureDApp</span>, where I worked as a Frontend Developer while exploring and implementing various growth hacking strategies. During my internship, I gained valuable experience in web development, user interface design, and marketing techniques.</p>
@@ -41,7 +41,7 @@ const Experience = () => {
           </div>
         </div>
         {/* 2 */}
-        <div className=" pt-10 pb-10 mx-3 md:mx-[22%] flex-shrink-0">
+        <div className=" pt-10 pb-10 mx-3 md:mx-10 lg:mx-[22%] flex-shrink-0">
           <div className=" space-y-6 rounded-lg p-10 poppins-font hover:scale-105 hover:border-2 hover:border-cyan-300" data-aos = "flip-right" style={textBG}>
             <p className=' text-xl underline font-semibold bg-gradient-to-r from-blue-300 via-green-200 to-yellow-300 bg-clip-text text-transparent md:text-3xl'>17th July 2023 - 18th October 2023</p>                  
             <p className=' text-base text-white pb-5 md:text-2xl' >
@@ -54,7 +54,7 @@ const Experience = () => {
           </div>
         </div>
         {/* 3 */}
-        <div className=" pt-10 pb-10 mx-3 md:mx-[22%] flex-shrink-0">
+        <div className=" pt-10 pb-10 mx-3 md:mx-10 lg:mx-[22%] flex-shrink-0">
           <div className=" space-y-6 rounded-lg p-10 poppins-font hover:scale-105 hover:border-2 hover:border-cyan-300" data-aos = "flip-left" style={textBG}>
             <p className=' text-xl underline font-semibold bg-gradient-to-r from-blue-300 via-green-200 to-yellow-300 bg-clip-text text-transparent md:text-3xl'>24th May 2023 - Present</p>                  
             <p className=' text-base text-white pb-5 md:text-2xl' >
