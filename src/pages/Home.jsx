@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     
-    <div className=" h-screen bg-gradient-to-b from-cyan-300 via-slate-500 to-cyan-300 bg-cover bg-center" >
+    <div className=" h-full bg-gradient-to-b from-cyan-300 via-slate-500 to-cyan-300 bg-cover bg-center" >
         <ParticlesBg/>
         <Navbar/>
 
