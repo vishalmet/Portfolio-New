@@ -31,10 +31,10 @@ const Works = () => {
     <div className="  bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" > 
         <ParticlesBg/>
         <Navbar/>
-        <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-white mt-4 md:mt-10 poppins-font'>My Works</p>
+        <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-white text-with-glow mt-4 md:mt-10 poppins-font'>My Works</p>
         {/* 1 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow " data-aos = "flip-right" style={textBG}>
             <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={Ticket3} alt="Vishal" />
             <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>Ticket3: Crypto tickets, your way!</p> 
@@ -47,7 +47,7 @@ const Works = () => {
         </div>
         {/* 2 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow " data-aos = "flip-left" style={textBG}>
             <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={DeCric} alt="Vishal" />
             <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>DeCric: A Decentralized fantasy cricket!</p> 
@@ -60,7 +60,7 @@ const Works = () => {
         </div>
         {/* 3 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow " data-aos = "flip-right" style={textBG}>
             <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={Grfolio} alt="Vishal" />
             <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>Grfolio: It is Devfolio, but Decentralized!</p> 
@@ -73,7 +73,7 @@ const Works = () => {
         </div>
         {/* 4 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow " data-aos = "flip-left" style={textBG}>
             <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={FundRaiz} alt="Vishal" />
             <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>FundRaiz: Empower the Crowd, Fund the Future!</p> 
@@ -86,7 +86,7 @@ const Works = () => {
         </div>
         {/* 5 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-right" style={textBG}>
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow " data-aos = "flip-right" style={textBG}>
             <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={Tesla} alt="Vishal" />
             <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>Tesla UI: A smooth and seemless UI!</p> 
@@ -99,7 +99,7 @@ const Works = () => {
         </div>
         {/* 6 */}
         <div className=" pt-12 pb-12 flex-shrink-0" >
-          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 hover:scale-105 hover:border-2 hover:border-cyan-300 " data-aos = "flip-left" style={textBG}>
+          <div className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow " data-aos = "flip-left" style={textBG}>
             <img className=' h-auto rounded-lg pt-2 md:pt-0 lg:h-52' data-aos = "fade-up" src={IG} alt="Vishal" />
             <div className=' pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font' data-aos = "fade-up"> 
                 <p className=' flex justify-center font-semibold'>Instagram UI: A smooth and seemless UI!</p> 
