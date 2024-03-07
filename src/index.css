@@ -43,3 +43,19 @@
     display: none;
 }
 
+
+.text-with-glow {
+    /* Add glow effect */
+    text-shadow: 0 0 10px #00FFFF, /* Cyan glow */
+                 0 0 20px #00FFFF, /* Cyan glow */
+                 0 0 30px #00FFFF, /* Cyan glow */
+                 0 0 40px #00FFFF; /* Cyan glow */
+  }
+
+.border-glow:hover {
+    box-shadow: 0 0 10px #00FFFF, /* Cyan glow */
+                0 0 20px #00FFFF, /* Cyan glow */
+                0 0 30px #00FFFF, /* Cyan glow */
+                0 0 40px #00FFFF; /* Cyan glow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+  }

@@ -7,8 +7,8 @@ const TypeWriting = () => {
     <TypeWriterEffect
     textStyle={{
      
-      color: '#46CFE5',
-      paddingTop: 10,
+      color: '#FFFFFF',
+      paddingTop: 6,
     }}
     startDelay={1000}
     cursorColor="#3F3D56"

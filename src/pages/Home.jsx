@@ -14,6 +14,8 @@ color: '#46CFE5'
 }
 
 
+
+
 const Home = () => {
 
 
@@ -23,16 +25,16 @@ const Home = () => {
         <ParticlesBg/>
         <Navbar/>
 
-          <div className=" items-center m-2 mt-32 mb-40 flex-shrink-0 lg:ml-48 lg:flex lg:mx-32 md:mt-44 md:mb-52 lg:space-x-16">
+          <div className=" items-center m-2 mt-32 mb-40 flex-shrink-0 lg:ml-48 lg:flex lg:mx-32 md:mt-44 md:mb-52 lg:space-x-16 ">
               <div className=" flex justify-center">
                 <img className=' md:mx-0 lg:ml-40  h-44  md:h-80' src={HomePic} alt="" />
               </div>
             <div className="   flex-col pt-6 lg:pt-0 md:mx-0 poppins-font text-2xl md:text-4xl font-semibold">
               <p className=' flex justify-center lg:flex-col '>Hey Folks🚀</p>
               <div className=" flex justify-center lg:flex-col">
-                <p className=' pb-4 '>I am <span style={blueColor}>Vishal Aakash</span></p>
+                <p className=' pb-4 '>I am <span className='  text-white text-with-glow ' >Vishal Aakash</span></p>
               </div>
-              <div className="flex justify-center lg:flex-col">
+              <div className="flex justify-center lg:flex-col text-with-glow">
                 <TypeWriting/>
               </div>
             </div>

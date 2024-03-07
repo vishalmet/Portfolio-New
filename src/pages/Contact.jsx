@@ -6,6 +6,12 @@ import GitHub from '../assets/github.png';
 import LinkedIn from '../assets/linkedin.png';
 import Yt from '../assets/yt.png';
 
+const textBG = {
+  // border: '1px solid #FFF',
+  // borderRadius: '1rem',
+  background: 'rgba(48, 48, 48, 0.50)',
+};
+
 export default function Fetch() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -63,7 +69,7 @@ export default function Fetch() {
   }
 
   return (
-    <div className=" h-screen  bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" >
+    <div className=" h-full  bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" >
       <ParticlesBg/>  
       <Navbar/>
       <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-white mt-4 md:mt-10 poppins-font'>CONTACT ME</p>
@@ -119,16 +125,28 @@ export default function Fetch() {
         </div>
         </form>
       </div>
-      <div className=" mr-4 flex-row justify-center mt-32 ">
-            <p className=' text-xl flex justify-center poppins-font md:text-3xl text-white font-medium'>Connect with me on:</p>
-            <div className=" flex justify-center space-x-6 p-6" >
-              <a className=' hover:scale-105 transition-transform' href="https://github.com/vishalmet" target='_blank'><img className=' h-8 md:h-10' src={GitHub}></img></a>
-              <a className=' hover:scale-105 transition-transform' href="https://www.linkedin.com/in/vishal-aakash/"  target='_blank'><img className=' h-8 md:h-10'  src={LinkedIn}></img></a>
-              <a className=' hover:scale-105 transition-transform' href="https://twitter.com/VishalAakash18" target='_blank'><img className=' h-8 md:h-10' src={X}></img></a>
-              <a className=' hover:scale-105 transition-transform' href="https://youtube.com/@vishalaakash1802" target='_blank'><img className=' h-8 md:h-10' src={Yt}></img></a>
+      <div className=" flex-row justify-center mt-32 poppins-font">
+          <p className=' text-xl flex justify-center md:text-3xl text-white font-medium'>Connect with me on:</p>
+          <div className=" text-white flex justify-center space-x-10  mt-6">
+            <div className=" p-3 rounded-md w-44 flex justify-center border border-white border-glow"  >
+              <a className=' flex items-center text-lg md:text-2xl hover:scale-105 transition-transform' href="https://github.com/vishalmet" target='_blank'> Github<img className='pl-3 h-8 md:h-10' src={GitHub}></img></a>
             </div>
+            <div className=" p-3 rounded-md w-44 border border-white hover:border-cyan-400 border-glow"  >
+              <a className=' flex  items-center text-lg md:text-2xl hover:scale-105 transition-transform' href="https://www.linkedin.com/in/vishal-aakash/"  target='_blank'>LinkedIn<img className=' pl-3 h-8 md:h-10'  src={LinkedIn}></img></a>
+            </div>
+          </div>
+          <div className=" text-white flex justify-center space-x-10  mt-6">
+            <div className=" p-3 rounded-md w-44 flex justify-center border border-white hover:border-cyan-400 border-glow"  >
+              <a className=' flex  items-center text-lg md:text-2xl hover:scale-105 transition-transform' href="https://twitter.com/VishalAakash18" target='_blank'>X<img className='pl-3 h-8 md:h-10' src={X}></img></a>
+            </div>
+            <div className=" p-3 rounded-md w-44 border border-white hover:border-cyan-400 hover:shadow-glow border-glow"  >
+              <a className=' flex  items-center text-lg md:text-2xl hover:scale-105 transition-transform hover:shadow-glow' href="https://youtube.com/@vishalaakash1802" target='_blank'>Youtube<img className='pl-3 h-8 md:h-10' src={Yt}></img></a>
+            </div>
+          </div>
         </div>
-      <div className=" absolute bottom-0 w-full bg-black mt-6 flex justify-center">
+        <br />
+        <br />
+      <div className=" w-full bg-black mt-6 flex justify-center">
           <p className=' text-white poppins-font p-3'> Designed & Developed by Vishal Aakash</p>
       </div>
     </div>
