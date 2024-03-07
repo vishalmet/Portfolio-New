@@ -15,6 +15,7 @@
 }
 
 
+
 /* .scroll-content {
     display: flex;
     overflow-x: scroll;
@@ -41,3 +42,4 @@
 .scroll-container::-webkit-scrollbar {
     display: none;
 }
+
