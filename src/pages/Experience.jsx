@@ -27,8 +27,10 @@ const Experience = () => {
   return (
   <div className="  bg-gradient-to-b from-gray-800 via-slate-500 to-gray-800 bg-cover bg-center" > 
     <ParticlesBg/>
-    <Navbar/>
-    <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-with-glow text-white mt-4 md:mt-10 poppins-font'>My Experience</p>
+    <div className=" text-white">
+      <Navbar/>
+    </div>
+    <p className=' flex justify-center text-2xl md:text-4xl font-semibold text-with-glow text-white pt-24 md:pt-24 poppins-font'>My Experience</p>
         {/* 1 */} 
         <div className=" pt-10 pb-10 mx-3 md:mx-10 lg:mx-[22%] flex-shrink-0">
           <div className=" space-y-6 rounded-lg p-10 poppins-font border-glow" data-aos = "flip-left" style={textBG}>

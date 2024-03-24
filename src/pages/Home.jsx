@@ -25,7 +25,7 @@ const Home = () => {
         <ParticlesBg/>
         <Navbar/>
 
-          <div className=" items-center m-2 mt-32 mb-40 flex-shrink-0 lg:ml-48 lg:flex lg:mx-32 md:mt-44 md:mb-52 lg:space-x-16 ">
+          <div className=" items-center p-2 pt-32 mb-40 flex-shrink-0 lg:ml-48 lg:flex lg:mx-32 md:pt-44 md:mb-52 lg:space-x-16 ">
               <div className=" flex justify-center">
                 <img className=' md:mx-0 lg:ml-40  h-44  md:h-80' src={HomePic} alt="" />
               </div>
