@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="">
             <ParticlesBg/>
         
-        <div className="bg-transparent top-0 z-10 w-full fixed backdrop-filter backdrop-blur-lg bg-opacity-20 pb-3 pt-2 flex justify-between items-center " style={{ boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.1)' }}>
+        <div className="bg-transparent top-0 z-10 w-full fixed backdrop-filter backdrop-blur-lg bg-opacity-20 pb-3 pt-2 flex justify-between items-center " >
             <a href="/" className="hover:cursor-pointer">
                 <img className="h-12" src={Logo} alt="Logo" />
             </a>

@@ -8,7 +8,8 @@ import Grfolio from "../assets/grfolio.jpeg";
 import FundRaiz from "../assets/FundRaiz.jpeg";
 import Tesla from "../assets/tesla.png";
 import IG from "../assets/IG.png";
-import Logo from "../assets/VAlogo.png";
+import OneSign from "../assets/onesign.png";
+import  CryptCofee from '../assets/cryptcoffee.png';
 import Navbar from "../components/Navbar";
 
 const textBG = {
@@ -31,7 +32,45 @@ const Works = () => {
       <p className=" flex justify-center text-2xl md:text-4xl font-semibold text-white text-with-glow pt-24 md:pt-24 poppins-font">
         My Works
       </p>
-      {/* 1 */}
+      {/* OneSign */}
+      <div className=" pt-12 pb-12 flex-shrink-0">
+        <div
+          className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow "
+          data-aos="flip-right"
+          style={textBG}
+        >
+          <img
+            className=" h-auto rounded-lg pt-2 md:pt-0 lg:h-52"
+            data-aos="fade-up"
+            src={OneSign}
+            alt="OneSign"
+          />
+          <div
+            className=" pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font"
+            data-aos="fade-up"
+          >
+            <p className=" flex justify-center font-semibold">
+              OneSign: The Next Gen Effortless ZK Onboarding!
+            </p>
+            <p className=" pb-2">
+              Next Gen Effortless ZK Onboarding provides seamless decentralized
+              access, enabling users to effortlessly log in using only their
+              user ID, removing the necessity for repetitive wallet connections
+              or traditional login methods.
+            </p>
+            <div className=" flex justify-center">
+              <a
+                href="https://devfolio.co/projects/onesign-fa91"
+                target="_blank"
+                className="py-2 px-2 text-base md:text-xl bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-lg cursor-pointer font-semibold text-white hover:from-sky-400 hover:to-sky-200 hover:text-black"
+              >
+                Click here
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Ticket3 */}
       <div className=" pt-12 pb-12 flex-shrink-0">
         <div
           className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow "
@@ -69,7 +108,7 @@ const Works = () => {
           </div>
         </div>
       </div>
-      {/* 2 */}
+      {/* Decric */}
       <div className=" pt-12 pb-12 flex-shrink-0">
         <div
           className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow "
@@ -106,7 +145,7 @@ const Works = () => {
           </div>
         </div>
       </div>
-      {/* 3 */}
+      {/* Grfolio */}
       <div className=" pt-12 pb-12 flex-shrink-0">
         <div
           className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow "
@@ -143,7 +182,7 @@ const Works = () => {
           </div>
         </div>
       </div>
-      {/* 4 */}
+      {/* FundRaiz */}
       <div className=" pt-12 pb-12 flex-shrink-0">
         <div
           className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow "
@@ -180,7 +219,42 @@ const Works = () => {
           </div>
         </div>
       </div>
-      {/* 5 */}
+      {/* Cryptcoffee */}
+      <div className=" pt-12 pb-12 flex-shrink-0">
+        <div
+          className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow "
+          data-aos="flip-left"
+          style={textBG}
+        >
+          <img
+            className=" h-auto rounded-lg pt-2 md:pt-0 lg:h-52"
+            data-aos="fade-up"
+            src={CryptCofee}
+            alt="Vishal"
+          />
+          <div
+            className=" pt-3 lg:pt-0 space-y-4 md:text-2xl text-white poppins-font"
+            data-aos="fade-up"
+          >
+            <p className=" flex justify-center font-semibold">
+              Cryptcoffee!
+            </p>
+            <p className=" pb-2">
+              Our website offers users the opportunity to donate funds for a virtual 'coffee' to fuel ongoing blockchain projects. Join us in fostering innovation and fueling the future of decentralized technology, one cup at a time.
+            </p>
+            <div className=" flex justify-center">
+              <a
+                href="https://coffeecornerspk.vercel.app/"
+                target="_blank"
+                className="py-2 px-2 text-base md:text-xl bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-lg cursor-pointer font-semibold text-white hover:from-sky-400 hover:to-sky-200 hover:text-black"
+              >
+                Click here
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* tesla */}
       <div className=" pt-12 pb-12 flex-shrink-0">
         <div
           className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow "
@@ -218,7 +292,7 @@ const Works = () => {
           </div>
         </div>
       </div>
-      {/* 6 */}
+      {/* Instagram */}
       <div className=" pt-12 pb-12 flex-shrink-0">
         <div
           className=" lg:flex justify-center items-center p-3 md:p-16 mx-3 md:mx-20 md:mt-12 rounded-lg flex-shrink-0 lg:space-x-32 border-glow "
@@ -258,7 +332,6 @@ const Works = () => {
 
       <div className=" bg-black flex justify-center">
         <p className=" text-white poppins-font p-3">
-          {" "}
           Designed & Developed by Vishal Aakash
         </p>
       </div>
